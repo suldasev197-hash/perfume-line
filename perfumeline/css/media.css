@@ -1,0 +1,152 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+
+    .collection-item img {
+        max-width: 450px;
+    }
+
+    .collection-text a {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .menu {
+        gap: 40px;
+    }
+
+    .about h2 {
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+
+    .collection {
+        margin-top: 50px;
+    }
+
+    .collection-h2 {
+        margin-bottom: 50px;
+    }
+
+    .collection-item {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+
+
+
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    .burger {
+        order: 1;
+        display: block;
+    }
+
+    .burger:focus~.menu {
+        left: auto;
+        right: 20px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 100%;
+        background: #2d2d2d;
+        /* right: 20px; */
+        flex-direction: column;
+        min-width: 200px;
+        gap: 0;
+        left: -100%;
+        right: auto;
+    }
+
+    .menu a {
+        line-height: 120%;
+        padding: 20px;
+        display: block;
+    }
+
+    h1 {
+        font-size: 65px;
+        margin-bottom: 50px;
+    }
+
+    header .content {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        min-height: 80dvh;
+    }
+
+    .about h2,
+    .collection-h2 {
+        font-size: 35px;
+    }
+
+    .collection-text h3 {
+        font-size: 27px;
+    }
+
+    footer .menu {
+        position: static;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .container {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    h1 {
+        font-size: 52px;
+        text-align: center;
+        line-height: 100%;
+    }
+
+    .more, .collection-text a {
+        font-size: 16px;
+        width: auto;
+        height: auto;
+        line-height: 120%;
+        padding: 14px 20px;
+        border-radius: 10px;
+    }
+
+    .about h2, .collection-h2 {
+        font-size: 30px;
+    }
+
+    .collection-text h3 {
+        font-size: 25px;
+    }
+
+    .logo {
+        line-height: 120%;
+    }
+}

@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Quicksand", sans-serif;
+    background: #f9f9f9;
+    color: #303030;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 234%;
+    color: #fff;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    color: #fff;
+    background: #2d2d2d;
+    padding: 0;
+}
+
+.burger {
+    display: none;
+    background: transparent;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    gap: 120px;
+    
+}
+
+.menu a {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 375%;
+    color: #fff;
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.menu a:hover {
+    opacity: 1;
+}
+
+header .content {
+    background: url(../img/parfume.jpg) no-repeat bottom / cover;
+    height: 731px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 78%;
+    margin-bottom: 100px;
+    color: #fff;
+}
+
+.more {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 375%;
+    color: #000;
+    background: #fff;
+    border: #fff;
+    border-radius: 12px;
+    width: 199px;
+    height: 75px;
+    text-align: center;
+    
+}
+
+.items {
+    display: flex;
+    gap: 40px;
+}
+
+.about h2 {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 188%;
+    text-align: center;
+}
+
+.about p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    text-align: center;
+    max-width: 923px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.collection {
+    margin-top: 100px;
+}
+
+.collection-h2 {
+    margin-bottom: 80px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 188%;
+    text-align: center;
+}
+
+.collection-item {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 100px;
+    align-items: start;
+}
+
+
+.collection-text h3 {
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 94%;
+    margin-bottom: 38.5px;
+}
+
+.collection-text p {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    margin-bottom: 20px;
+}
+
+.collection-text a {
+    margin-top: 80px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 75px;
+    color: #fff;
+    border-radius: 12px;
+    width: 160px;
+    height: 75px;
+    background: #000;
+    display: inline-block;
+    text-align: center;
+}
+
+.collection-item img {
+    max-width: 555px;
+    width: 100%;
+
+}
+
+
+
+footer .container {
+    display: flex;
+    align-items: center;
+    height: 215px;
+}
